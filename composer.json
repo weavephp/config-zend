@@ -1,0 +1,21 @@
+{
+	"name": "weavephp/config-zend",
+	"description": "Weave glue-framework Zend Config adaptor",
+	"type": "package",
+	"version": "0.0.1",
+	"authors": [
+		{
+			"name": "Robert Goldsmith",
+			"email": "r.s.goldsmith@far-blue.co.uk"
+		}
+	],
+	"require": {
+		"zendframework/zend-config": "^3.1",
+		"zendframework/zend-config-aggregator": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Weave\\Config\\Zend\\": "src/"
+		}
+	}
+}
