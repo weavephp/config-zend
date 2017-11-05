@@ -23,7 +23,7 @@ trait Zend
 	 *
 	 * @return array
 	 */
-	protected function _loadConfig($environment = null, $configLocation = null)
+	protected function loadConfig($environment = null, $configLocation = null)
 	{
 		$aggregator = new ConfigAggregator(
 			[
