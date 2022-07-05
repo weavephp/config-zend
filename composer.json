@@ -4,6 +4,7 @@
 	"type": "weave-adaptor",
 	"keywords" : ["weave", "config", "adaptor"],
 	"license": "MIT",
+	"abandoned": "weavephp/config-laminas",
 	"authors": [
 		{
 			"name": "Robert Goldsmith",
